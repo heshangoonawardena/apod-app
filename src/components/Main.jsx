@@ -5,7 +5,7 @@ const Main = (props) => {
   return (
     <div className="flex flex-col ">
       <img
-        className="object-cover w-full h-full"
+        className="object-cover w-full h-full max-h-screen"
         src={data.hdurl}
         alt="{data.title || 'bg-img}"
       />

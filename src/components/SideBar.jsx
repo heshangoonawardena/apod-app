@@ -12,7 +12,7 @@ const SideBar = (props) => {
       ></div>
       <div
         id="sidebar-content"
-        className="relative flex flex-col w-10/12 h-full max-w-4xl gap-4 p-4 ml-auto overflow-y-scroll z-15 bg-slate-800 lg:m-unset"
+        className="relative flex flex-col w-10/12 h-full max-w-4xl gap-4 p-4 ml-auto overflow-y-auto z-15 bg-slate-800 lg:m-unset"
       >
         <h1 className="text-2xl font-medium">{data?.title}</h1>
         <div className="flex-1">
